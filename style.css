@@ -1,0 +1,82 @@
+/* ページ全体 */
+body {
+    margin: 0;
+}
+
+
+/* ====================
+   上の赤いヘッダー
+==================== */
+
+.header {
+    height: 38px;
+    background-color: #e51b23;
+    border: 1px solid black;
+}
+
+
+/* 黄色い丸 */
+.circle {
+    width: 23px;
+    height: 23px;
+
+    background-color: #ffc928;
+
+    border-radius: 50%;
+
+    margin: 7px;
+}
+
+
+/* ====================
+   黄色のタイトル
+==================== */
+
+.title {
+    height: 62px;
+
+    background-color: #ffc928;
+
+    border: 1px solid black;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* ====================
+   ページの中身
+==================== */
+
+main {
+    height: 500px;
+
+    background-color: #eeeeee;
+}
+
+
+/* ====================
+   下の黄色いヘッダー
+==================== */
+
+.footer {
+    height: 60px;
+
+    background-color: #ffc928;
+
+    border: 1px solid black;
+
+    text-align: center;
+
+    font-size: 10px;
+
+    padding: 8px;
+}
+
+
+/* フッターの文章 */
+.footer p {
+    margin: 4px;
+}
